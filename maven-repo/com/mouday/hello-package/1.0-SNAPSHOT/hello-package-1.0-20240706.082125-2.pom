@@ -4,25 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yen</groupId>
+    <groupId>com.mouday</groupId>
     <artifactId>hello-package</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!-- 发布的软件包的位置 -->
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>local-repo-release</id>-->
-<!--            <name>GitHub Release</name>-->
-<!--&lt;!&ndash;            <url>file://${project.basedir}/maven-repo</url>&ndash;&gt;-->
-<!--            <url>https://maven.pkg.github.com/yennanliu/hello-package</url>-->
-<!--        </repository>-->
-<!--    </distributionManagement>-->
-
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>yennanliu</name>  <!-- 改 OWNER -->
-            <url>https://maven.pkg.github.com/yennanliu/hello-package</url>  <!-- 改 OWNER、REPOSITORY -->
+            <id>local-repo-release</id>
+            <name>GitHub Release</name>
+            <url>file://${project.basedir}/maven-repo</url>
         </repository>
     </distributionManagement>
 

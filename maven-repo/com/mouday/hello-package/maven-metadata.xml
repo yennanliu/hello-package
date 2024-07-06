@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.mouday</groupId>
+  <groupId>com.yen</groupId>
   <artifactId>hello-package</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20200731025404</lastUpdated>
+    <lastUpdated>20240706082259</lastUpdated>
   </versioning>
 </metadata>
